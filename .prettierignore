@@ -1,0 +1,6 @@
+/es/*
+/lib/*
+/node_modules/*
+/wasm-module/*
+/src/shared/img/*
+/src/shared/pkg/*

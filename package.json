@@ -1,0 +1,39 @@
+{
+  "homepage": "https://agnisun.github.io/github-lang-analyzer",
+  "name": "github-lang-analyzer",
+  "version": "1.0.0",
+  "description": "This project shows the programming languages used in a github repository.",
+  "scripts": {
+    "dev": "vite",
+    "preview": "vite preview",
+    "build": "vite build",
+    "prettier": "prettier --write src/**",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Dannil Parcvaniya <parcvaniya2021@gmail.com>",
+  "license": "MIT/Apache-2.0",
+  "dependencies": {
+    "@agnisun/github-lang-analyzer": "^0.1.0",
+    "@chakra-ui/icons": "^2.0.17",
+    "@chakra-ui/react": "^2.5.4",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "compose-function": "^3.0.3",
+    "framer-motion": "^10.9.2",
+    "jotai": "^2.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^3.1.0",
+    "gh-pages": "^5.0.0",
+    "prettier": "^2.8.2",
+    "typescript": "^4.6.4",
+    "vite": "^4.2.1",
+    "vite-plugin-wasm": "^3.2.2"
+  }
+}
